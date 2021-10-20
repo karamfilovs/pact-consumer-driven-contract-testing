@@ -13,7 +13,7 @@ mvn clean test
 ```
 ## 4. To publish the contracts in the Pactflow
 ``` shell
-mvn pact:verify
+mvn pact:publish
 ```
 
 ## 5. To verify the contracts, first navigate to provider folder and then executed
