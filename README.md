@@ -7,7 +7,7 @@ You can register in Pactflow.io for free account.
 
 ## 2. Check the comments in TODO
 
-## 3. To generate the pacts navigate to consumers module and execute
+## 3. To generate the pacts navigate to consumers folders(customer_consumer/order_consumer) and execute
 ``` shell
 mvn clean test
 ```
@@ -20,3 +20,4 @@ mvn pact:verify
 ``` shell
 mvn pact:verify -Dpact.verifier.publishResults
 ```
+## If maven commands does not work, make sure you see pom.xml in the same folder where you run them
